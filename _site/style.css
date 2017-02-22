@@ -1,0 +1,80 @@
+/*css reset*/
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+
+/*universal style*/
+
+img {max-width: 100%;
+}
+
+a {display:inline-block;
+color:black;}
+
+a:hover {color:red;}
+
+.underline {text-decoration: underline;}
+
+h1 a {text-align: center;
+    font-size: 5rem;
+    text-decoration:none;
+    font-weight: lighter;;
+    font-family: 'Reenie Beanie', cursive;}
+
+a {text-decoration:none; font-family: 'Reenie Beanie', cursive;}
+
+/*header and footer*/
+
+header {background-color: cya;}
+
+section {padding: 5%;}
+
+.circle {
+        height:90%;
+        width:100%;
+        overflow: hidden;
+        }
+
+.circle img {border-radius: 50%;
+  max-width: 100%;
+            height:auto;}
+
+.background {background-image:
+url(./travel.jpg);
+background-size: cover;
+background-repeat: none;
+background-color: rgba(0,0,0,0.4)
+}
+
+.meow {padding: 2%;}
+
+.left
+{text-align: left;
+font-size:3rem;}
+
+.right
+{text-align: right;
+font-size:3rem;
+}
+
+.center
+{text-align:center;
+font-size:1.0rem;
+}
+
+.meow
+{padding-left: 90px;
+}
+
+.border {background-color:rgba(0,0,0,0.4);
+         border-radius: 25%;
+ }
+
+.goose {
+font-family: 'Josefin Sans', sans-serif;
+        color:#0c090a;
+        font-size: 1.3rem;}
